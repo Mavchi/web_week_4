@@ -225,8 +225,7 @@ buttonToSubmitSearch.addEventListener("click", /*#__PURE__*/function () {
 
           case 8:
             shows = _context.sent;
-            containerForShows.innerHTML = ""; //console.log(`${baseUrl}${searchTerm}`);
-            //console.log(shows);
+            containerForShows.innerHTML = ""; //console.log(shows);
 
             shows.forEach(function (show) {
               show = show.show;
