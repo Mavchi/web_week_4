@@ -17,7 +17,7 @@ buttonToSubmitSearch.addEventListener("click", async (e) => {
   containerForShows.innerHTML = ""
 
   //console.log(`${baseUrl}${searchTerm}`);
-  console.log(shows);
+  //console.log(shows);
 
   shows.forEach( show => {
     show = show.show
